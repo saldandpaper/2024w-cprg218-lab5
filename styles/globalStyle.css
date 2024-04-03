@@ -1,4 +1,73 @@
+body {
+    background-color: #4a4461;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem, auto;
+}
+
+#content {
+    /* border: red solid 1px; */
+    width: 80vw;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 4rem;
+}
+
+form {
+    text-align: center;
+
+    & div {
+
+        margin: 1rem;
+    }
+}
+
+input {
+    background-color: black;
+    color: blanchedalmond;
+    border: 0.1rem solid blanchedalmond;
+    border-radius: 0.5rem;
+}
+
+.submit {
+    margin: 2rem;
+    color: black;
+    background-color: blanchedalmond;
+
+    &:hover {
+        background-color: rgba(255, 235, 205, 0.402);
+        color: white;
+    }
+}
+
+#info {
+    text-align: center;
+
+    & a{
+        color: rgb(197, 133, 237);
+    }
+
+    &>p {
+        opacity: 75%;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+}
+
+.result-section {
+    text-align: center;
+}
+
+
 img {
     height: 50vh;
     width: auto;
+    margin: 1rem;
 }
