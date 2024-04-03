@@ -9,8 +9,16 @@ body {
     /* border: red solid 1px; */
     width: 80vw;
     margin: auto;
+    margin-bottom: 5rem;
     justify-content: center;
     
+    display: flex;
+    flex-flow: row-wrap;
+
+    &>*{
+        /* border: red 1px solid; */
+    }
+
 }
 
 h1 {
@@ -20,6 +28,7 @@ h1 {
 
 form {
     text-align: center;
+    flex: 1;
 
     & div {
 
@@ -47,14 +56,14 @@ input {
 
 #info {
     text-align: center;
-
+    flex: 1;
     & a{
         color: rgb(197, 133, 237);
     }
 
     &>p {
         opacity: 75%;
-        width: 50%;
+        width: 100%;
         margin: auto;
         margin-bottom: 1rem;
     }
